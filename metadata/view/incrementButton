@@ -1,0 +1,51 @@
+{
+    "id": "ExtBox1-ext-gen7224",
+    "type": "button",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "itemId": "mybutton",
+        "text": 5,
+        "designer|userClassName": "incrementButton",
+        "designer|userAlias": "incrementButton"
+    },
+    "customConfigs": [],
+    "designerId": "b0cf2329-999e-4261-83ae-9be330110ce5",
+    "$viewOrder": 1,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen3271",
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onMybuttonTap",
+                "implHandler": [
+                    "var increment = button.getText();",
+                    "var start = Ext.getCmp('startButton');",
+                    "",
+                    "var startInt = start.getText();",
+                    "",
+                    "var total = parseInt(startInt, 10) + parseInt(increment, 10);",
+                    "",
+                    "start.setText(total);",
+                    "",
+                    "if(start.isHidden()) {",
+                    "    start.show();",
+                    "}"
+                ],
+                "name": "tap",
+                "designer|userClassName": "onMybuttonTap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

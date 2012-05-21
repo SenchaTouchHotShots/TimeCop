@@ -26,6 +26,14 @@
                 "app/view/MyContainer.js"
             ],
             "className": "MyContainer"
+        },
+        "b0cf2329-999e-4261-83ae-9be330110ce5": {
+            "paths": [
+                "metadata/view/incrementButton",
+                "app/view/override/incrementButton.js",
+                "app/view/incrementButton.js"
+            ],
+            "className": "incrementButton"
         }
     },
     "expandedState": {
