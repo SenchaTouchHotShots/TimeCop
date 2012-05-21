@@ -85,6 +85,7 @@ Ext.define('MyApp.view.MyContainer', {
                                 xtype: 'button',
                                 hidden: true,
                                 id: 'startButton',
+                                itemId: 'mybutton5',
                                 ui: 'roundStart',
                                 text: 0
                             }
@@ -135,7 +136,32 @@ Ext.define('MyApp.view.MyContainer', {
                     }
                 ]
             }
+        ],
+        listeners: [
+            {
+                fn: 'onStartButtonTap',
+                event: 'tap',
+                delegate: '#startButton'
+            },
+            {
+                fn: 'onStartButtonTaphold',
+                element: 'element',
+                event: 'taphold',
+                delegate: '#startButton'
+            }
         ]
+    },
+
+    onStartButtonTap: function(button, e, options) {
+        console.log(e);
+        var delay = button.getText();
+        setTimeout(function() {Ext.Msg.alert('Holy Crap!', 'Back to work minion! The boss needs a new villa!', Ext.emptyFn);},parseInt(delay, 10)*1000);
+    },
+
+    onStartButtonTaphold: function(button) {
+        var startButton = Ext.getCmp('startButton');
+        startButton.setText('0');
+        startButton.hide('fade');
     }
 
 });
