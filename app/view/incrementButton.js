@@ -19,6 +19,7 @@ Ext.define('MyApp.view.incrementButton', {
 
     config: {
         itemId: 'mybutton',
+        ui: 'round',
         text: 5,
         listeners: [
             {

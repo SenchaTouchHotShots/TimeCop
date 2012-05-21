@@ -174,12 +174,61 @@
                             "userConfig": {
                                 "hidden": true,
                                 "id": "startButton",
+                                "itemId": "mybutton5",
                                 "ui": "roundStart",
                                 "text": 0,
                                 "designer|userClassName": "MyButton5"
                             },
                             "customConfigs": [],
-                            "expanded": true
+                            "expanded": true,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen15598",
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onStartButtonTap",
+                                        "implHandler": [
+                                            "console.log(e);",
+                                            "var delay = button.getText();",
+                                            "setTimeout(function() {Ext.Msg.alert('Holy Crap!', 'Back to work minion! The boss needs a new villa!', Ext.emptyFn);},parseInt(delay, 10)*1000);"
+                                        ],
+                                        "name": "tap",
+                                        "designer|userClassName": "onStartButtonTap"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen19665",
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onStartButtonTaphold",
+                                        "designer|params": [
+                                            "button"
+                                        ],
+                                        "implHandler": [
+                                            "var startButton = Ext.getCmp('startButton');",
+                                            "startButton.setText('0');",
+                                            "startButton.hide('fade');"
+                                        ],
+                                        "element": "element",
+                                        "name": "taphold",
+                                        "designer|userClassName": "onStartButtonTaphold"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
                         }
                     ]
                 },

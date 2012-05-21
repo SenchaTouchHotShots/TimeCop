@@ -8,6 +8,7 @@
     "codeClass": null,
     "userConfig": {
         "itemId": "mybutton",
+        "ui": "round",
         "text": 5,
         "designer|userClassName": "incrementButton",
         "designer|userAlias": "incrementButton"
