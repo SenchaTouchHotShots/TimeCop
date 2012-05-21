@@ -202,31 +202,6 @@
                                     },
                                     "customConfigs": [],
                                     "expanded": true
-                                },
-                                {
-                                    "id": "ExtBox1-ext-gen19665",
-                                    "type": "basiceventbinding",
-                                    "reference": {
-                                        "name": "listeners",
-                                        "type": "array"
-                                    },
-                                    "codeClass": null,
-                                    "userConfig": {
-                                        "fn": "onStartButtonTaphold",
-                                        "designer|params": [
-                                            "button"
-                                        ],
-                                        "implHandler": [
-                                            "var startButton = Ext.getCmp('startButton');",
-                                            "startButton.setText('0');",
-                                            "startButton.hide('fade');"
-                                        ],
-                                        "element": "element",
-                                        "name": "taphold",
-                                        "designer|userClassName": "onStartButtonTaphold"
-                                    },
-                                    "customConfigs": [],
-                                    "expanded": true
                                 }
                             ]
                         }
