@@ -19,7 +19,8 @@ Ext.Loader.setConfig({
 
 Ext.application({
     views: [
-        'MyContainer'
+        'MyContainer',
+        'incrementButton'
     ],
     name: 'MyApp',
 

@@ -15,6 +15,9 @@
 
 Ext.define('MyApp.view.MyContainer', {
     extend: 'Ext.Container',
+    requires: [
+        'MyApp.view.incrementButton'
+    ],
 
     config: {
         layout: {
@@ -40,8 +43,7 @@ Ext.define('MyApp.view.MyContainer', {
                         flex: 1,
                         items: [
                             {
-                                xtype: 'button',
-                                text: 5
+                                xtype: 'incrementButton'
                             }
                         ]
                     },
@@ -66,15 +68,27 @@ Ext.define('MyApp.view.MyContainer', {
                         flex: 1,
                         items: [
                             {
-                                xtype: 'button',
-                                text: 30
+                                xtype: 'incrementButton',
+                                text: 60
                             }
                         ]
                     },
                     {
                         xtype: 'container',
                         width: '',
-                        flex: 1
+                        layout: {
+                            type: 'fit'
+                        },
+                        flex: 1,
+                        items: [
+                            {
+                                xtype: 'button',
+                                hidden: true,
+                                id: 'startButton',
+                                ui: 'roundStart',
+                                text: 0
+                            }
+                        ]
                     },
                     {
                         xtype: 'container',
@@ -84,7 +98,7 @@ Ext.define('MyApp.view.MyContainer', {
                         flex: 1,
                         items: [
                             {
-                                xtype: 'button',
+                                xtype: 'incrementButton',
                                 text: 10
                             }
                         ]
@@ -110,7 +124,7 @@ Ext.define('MyApp.view.MyContainer', {
                         flex: 1,
                         items: [
                             {
-                                xtype: 'button',
+                                xtype: 'incrementButton',
                                 text: 15
                             }
                         ]
@@ -118,20 +132,6 @@ Ext.define('MyApp.view.MyContainer', {
                     {
                         xtype: 'container',
                         flex: 1
-                    }
-                ]
-            },
-            {
-                xtype: 'toolbar',
-                docked: 'bottom',
-                items: [
-                    {
-                        xtype: 'selectfield',
-                        label: 'Alarm'
-                    },
-                    {
-                        xtype: 'button',
-                        text: 'GO!'
                     }
                 ]
             }

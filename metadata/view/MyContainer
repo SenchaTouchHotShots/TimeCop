@@ -64,19 +64,18 @@
                     "expanded": true,
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen7224",
-                            "type": "button",
+                            "id": "ExtBox1-ext-gen9332",
+                            "type": "linkedinstance",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
-                            "userConfig": {
-                                "text": 5,
-                                "designer|userClassName": "MyButton"
-                            },
+                            "userConfig": {},
                             "customConfigs": [],
-                            "expanded": true
+                            "iconCls": "icon-linkedinstance",
+                            "expanded": true,
+                            "masterInstanceId": "ExtBox1-ext-gen7224"
                         }
                     ]
                 },
@@ -130,19 +129,20 @@
                     "expanded": true,
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen7399",
-                            "type": "button",
+                            "id": "ExtBox1-ext-gen11135",
+                            "type": "linkedinstance",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "text": 30,
-                                "designer|userClassName": "MyButton1"
+                                "text": 60
                             },
                             "customConfigs": [],
-                            "expanded": true
+                            "iconCls": "icon-linkedinstance",
+                            "expanded": true,
+                            "masterInstanceId": "ExtBox1-ext-gen7224"
                         }
                     ]
                 },
@@ -156,11 +156,32 @@
                     "codeClass": null,
                     "userConfig": {
                         "width": "",
+                        "layout": "fit",
                         "designer|userClassName": "MyContainer8",
                         "layout|flex": 1
                     },
                     "customConfigs": [],
-                    "expanded": true
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen2362",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "hidden": true,
+                                "id": "startButton",
+                                "ui": "roundStart",
+                                "text": 0,
+                                "designer|userClassName": "MyButton5"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
                 },
                 {
                     "id": "ExtBox1-ext-gen5174",
@@ -179,19 +200,20 @@
                     "expanded": true,
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen7576",
-                            "type": "button",
+                            "id": "ExtBox1-ext-gen14540",
+                            "type": "linkedinstance",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "text": 10,
-                                "designer|userClassName": "MyButton2"
+                                "text": 10
                             },
                             "customConfigs": [],
-                            "expanded": true
+                            "iconCls": "icon-linkedinstance",
+                            "expanded": true,
+                            "masterInstanceId": "ExtBox1-ext-gen7224"
                         }
                     ]
                 }
@@ -245,19 +267,20 @@
                     "expanded": true,
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen7755",
-                            "type": "button",
+                            "id": "ExtBox1-ext-gen12633",
+                            "type": "linkedinstance",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "text": 15,
-                                "designer|userClassName": "MyButton3"
+                                "text": 15
                             },
                             "customConfigs": [],
-                            "expanded": true
+                            "iconCls": "icon-linkedinstance",
+                            "expanded": true,
+                            "masterInstanceId": "ExtBox1-ext-gen7224"
                         }
                     ]
                 },
@@ -272,53 +295,6 @@
                     "userConfig": {
                         "designer|userClassName": "MyContainer12",
                         "layout|flex": 1
-                    },
-                    "customConfigs": [],
-                    "expanded": true
-                }
-            ]
-        },
-        {
-            "id": "ExtBox1-ext-gen8606",
-            "type": "toolbar",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "docked": "bottom",
-                "designer|userClassName": "MyToolbar"
-            },
-            "customConfigs": [],
-            "expanded": true,
-            "cn": [
-                {
-                    "id": "ExtBox1-ext-gen9264",
-                    "type": "selectfield",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "label": "Alarm",
-                        "designer|userClassName": "MySelectField"
-                    },
-                    "customConfigs": [],
-                    "expanded": true
-                },
-                {
-                    "id": "ExtBox1-ext-gen9564",
-                    "type": "button",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "text": "GO!",
-                        "designer|userClassName": "MyButton4"
                     },
                     "customConfigs": [],
                     "expanded": true
