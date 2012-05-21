@@ -34,8 +34,10 @@ while (1) {
         $pusher->token = $token;
         $pusher->alert = 'TimeCop Alert for: '.$notificationDate;
 
-        $pusher->send();
-
+        if (!$pusher->send()) {
+            break;
+        }
+        
     } else {
         break;
     }
