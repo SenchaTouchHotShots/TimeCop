@@ -27,9 +27,9 @@ if ($token !== false && !is_null($token)) {
         /* We have good inputs. Now we need to include some libraries that handle the hard work for us. */
         include_once 'lib/config.inc';
 
-        $db = new mysqli($dbConfig['host'], $dbConfig['user'], $dbConfig['password'], $dbConfig['database']);
+        $db = new \mysqli($dbConfig['host'], $dbConfig['user'], $dbConfig['password'], $dbConfig['database']);
 
-        $sql = "INSERT INTO `timecop_notifications (`notificationID`, `token`, `notificationDate`) VALUES (NULL, ?, ?);";
+        $sql = "INSERT INTO `timecop_notifications (`notificationID`, `token`, `notificationDate`, `sent`) VALUES (NULL, ?, ?, 0);";
         $statement = $db->prepare($sql);
         $statement->bind_param('ss', $token, $notificationDate->format('Y-m-d H:i:s'));
 

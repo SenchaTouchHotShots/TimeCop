@@ -2,12 +2,12 @@
 /**
  * TimeCop server configuration. Beware, you should make this file unreadable by your webserver or someone could acquire your sensitive information.
  */
-
+global $dbConfig, $pushServer, $pemFile;
 
 /**
  * dbConfig -- set your database connection information here.
  */
-global $dbConfig;
+
 
 $dbConfig = array(
     'host' => '',
@@ -17,13 +17,14 @@ $dbConfig = array(
 );
 
 /**
- * Push Server URL. Choose one and comment out the other.
+ * Push Server to use. 'production' or 'sandbox'
  */
 
-// This is for the sandbox (development) push server:
+$pushServer = 'sandbox';
 
-$pushServer = '';
+/**
+ * Location of certificate PEM file relative to pusher.php. Remember to change this
+ * when switching between production and sandbox modes.
+ */
 
-// This is for the production push server:
-
-//$pushServer = '';
+$pemFile = 'apns-cert.pem';
