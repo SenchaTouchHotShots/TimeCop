@@ -37,7 +37,7 @@ while (1) {
         if (!$pusher->send()) {
             break;
         }
-        
+
     } else {
         break;
     }

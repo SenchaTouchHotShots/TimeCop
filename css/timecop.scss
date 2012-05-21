@@ -1,0 +1,8 @@
+@import 'sencha-touch/default/all';
+
+
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-loading-spinner;
+
+@include sencha-button-ui('roundStart', #00cc00, 'glossy');
