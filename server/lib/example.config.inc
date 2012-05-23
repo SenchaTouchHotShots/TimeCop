@@ -1,6 +1,7 @@
 <?php
 /**
- * TimeCop server configuration. Beware, you should make this file unreadable by your webserver or someone could acquire your sensitive information.
+ * TimeCop server configuration. Modify and rename to config.inc.
+ * Beware, you should make this file unreadable by your webserver or someone could acquire your sensitive information.
  */
 global $dbConfig, $pushServer, $pemFile;
 

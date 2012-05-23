@@ -1,3 +1,7 @@
+#Local configs
+server/lib/config.inc
+
+
 #################
 ## PHPStorm
 #################
