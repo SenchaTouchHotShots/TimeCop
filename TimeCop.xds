@@ -34,12 +34,18 @@
                 "app/view/incrementButton.js"
             ],
             "className": "incrementButton"
+        },
+        "dc6c249e-8708-48f4-8d71-fb3bd85cf65e": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
         }
     },
     "expandedState": {
         "data": true,
         "model": true,
-        "component": true,
+        "component": false,
         "controller": true,
         "resource": true
     }
