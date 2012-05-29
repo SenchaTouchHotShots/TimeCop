@@ -17,7 +17,10 @@ Ext.Loader.setConfig({
     enabled: true
 });
 
-Ext.require('Ext.device.*');
+Ext.require(['Ext.device.Notification', 'Ext.device.Push'], function() {
+    console.log('Device Goodies loaded.');
+    console.log(arguments);
+});
 
 Ext.application({
     views: [
