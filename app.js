@@ -17,10 +17,7 @@ Ext.Loader.setConfig({
     enabled: true
 });
 
-Ext.require(['Ext.device.Notification', 'Ext.device.Push'], function() {
-    console.log('Device Goodies loaded.');
-    console.log(arguments);
-});
+
 
 Ext.application({
     views: [
@@ -30,7 +27,10 @@ Ext.application({
     name: 'MyApp',
 
     launch: function() {
-
+        Ext.require(['Ext.device.Notification', 'Ext.device.Push'], function() {
+            console.log('Device Goodies loaded.');
+            console.log(arguments);
+        });
         Ext.create('MyApp.view.MyContainer', {fullscreen: true});
     }
 
