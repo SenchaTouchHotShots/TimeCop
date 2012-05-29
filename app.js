@@ -32,8 +32,6 @@ Ext.application({
 
     launch: function() {
         Ext.require(['Ext.device.Notification'], function() {
-            console.log('Device Goodies loaded.');
-            console.log(arguments);
         });
         Ext.create('MyApp.view.MyContainer', {fullscreen: true});
     }

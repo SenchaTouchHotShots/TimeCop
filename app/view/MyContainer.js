@@ -148,9 +148,7 @@ Ext.define('MyApp.view.MyContainer', {
 
     onStartButtonTap: function(button, e, options) {
         var delay = button.getText();
-        console.log('Start Button Tapped.');
         setTimeout(function() {
-            console.log('Settimeout Triggered!');
             Ext.device.Notification.vibrate();
             Ext.device.Notification.show({
                 title: 'Holy Crap!',
