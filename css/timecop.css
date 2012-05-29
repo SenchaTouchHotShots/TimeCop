@@ -3562,7 +3562,7 @@ audio {
 }
 
 /* line 88, ../resources/themes/stylesheets/sencha-touch/default/widgets/_buttons.scss */
-.x-button-round, .x-button.x-button-action-round, .x-button.x-button-confirm-round, .x-button.x-button-decline-round, .x-button.x-button-roundStart-round {
+.x-button-round, .x-button.x-button-action-round, .x-button.x-button-confirm-round, .x-button.x-button-decline-round {
   -webkit-border-radius: 0.9em;
   border-radius: 0.9em;
   padding: 0.1em 0.9em;
@@ -3638,18 +3638,18 @@ audio {
 }
 
 /* line 142, ../resources/themes/stylesheets/sencha-touch/default/widgets/_buttons.scss */
-.x-button-small, .x-button.x-button-action-small, .x-button.x-button-confirm-small, .x-button.x-button-decline-small, .x-button.x-button-roundStart-small, .x-toolbar .x-button-small, .x-toolbar .x-button.x-button-action-small, .x-toolbar .x-button.x-button-confirm-small, .x-toolbar .x-button.x-button-decline-small, .x-toolbar .x-button.x-button-roundStart-small {
+.x-button-small, .x-button.x-button-action-small, .x-button.x-button-confirm-small, .x-button.x-button-decline-small, .x-toolbar .x-button-small, .x-toolbar .x-button.x-button-action-small, .x-toolbar .x-button.x-button-confirm-small, .x-toolbar .x-button.x-button-decline-small {
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   padding: .2em .4em;
   min-height: 0;
 }
 /* line 147, ../resources/themes/stylesheets/sencha-touch/default/widgets/_buttons.scss */
-.x-button-small .x-button-label, .x-button.x-button-action-small .x-button-label, .x-button.x-button-confirm-small .x-button-label, .x-button.x-button-decline-small .x-button-label, .x-button.x-button-roundStart-small .x-button-label, .x-button-small .x-hasbadge .x-badge, .x-hasbadge .x-button-small .x-badge, .x-button.x-button-action-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-action-small .x-badge, .x-button.x-button-confirm-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-confirm-small .x-badge, .x-button.x-button-decline-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-decline-small .x-badge, .x-button.x-button-roundStart-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-roundStart-small .x-badge, .x-toolbar .x-button-small .x-button-label, .x-toolbar .x-button.x-button-action-small .x-button-label, .x-toolbar .x-button.x-button-confirm-small .x-button-label, .x-toolbar .x-button.x-button-decline-small .x-button-label, .x-toolbar .x-button.x-button-roundStart-small .x-button-label, .x-toolbar .x-button-small .x-hasbadge .x-badge, .x-hasbadge .x-toolbar .x-button-small .x-badge, .x-toolbar .x-button.x-button-action-small .x-hasbadge .x-badge, .x-hasbadge .x-toolbar .x-button.x-button-action-small .x-badge, .x-toolbar .x-button.x-button-confirm-small .x-hasbadge .x-badge, .x-hasbadge .x-toolbar .x-button.x-button-confirm-small .x-badge, .x-toolbar .x-button.x-button-decline-small .x-hasbadge .x-badge, .x-hasbadge .x-toolbar .x-button.x-button-decline-small .x-badge, .x-toolbar .x-button.x-button-roundStart-small .x-hasbadge .x-badge, .x-hasbadge .x-toolbar .x-button.x-button-roundStart-small .x-badge {
+.x-button-small .x-button-label, .x-button.x-button-action-small .x-button-label, .x-button.x-button-confirm-small .x-button-label, .x-button.x-button-decline-small .x-button-label, .x-button-small .x-hasbadge .x-badge, .x-hasbadge .x-button-small .x-badge, .x-button.x-button-action-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-action-small .x-badge, .x-button.x-button-confirm-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-confirm-small .x-badge, .x-button.x-button-decline-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-decline-small .x-badge, .x-toolbar .x-button-small .x-button-label, .x-toolbar .x-button.x-button-action-small .x-button-label, .x-toolbar .x-button.x-button-confirm-small .x-button-label, .x-toolbar .x-button.x-button-decline-small .x-button-label, .x-toolbar .x-button-small .x-hasbadge .x-badge, .x-hasbadge .x-toolbar .x-button-small .x-badge, .x-toolbar .x-button.x-button-action-small .x-hasbadge .x-badge, .x-hasbadge .x-toolbar .x-button.x-button-action-small .x-badge, .x-toolbar .x-button.x-button-confirm-small .x-hasbadge .x-badge, .x-hasbadge .x-toolbar .x-button.x-button-confirm-small .x-badge, .x-toolbar .x-button.x-button-decline-small .x-hasbadge .x-badge, .x-hasbadge .x-toolbar .x-button.x-button-decline-small .x-badge {
   font-size: .6em;
 }
 /* line 151, ../resources/themes/stylesheets/sencha-touch/default/widgets/_buttons.scss */
-.x-button-small .x-button-icon, .x-button.x-button-action-small .x-button-icon, .x-button.x-button-confirm-small .x-button-icon, .x-button.x-button-decline-small .x-button-icon, .x-button.x-button-roundStart-small .x-button-icon, .x-toolbar .x-button-small .x-button-icon, .x-toolbar .x-button.x-button-action-small .x-button-icon, .x-toolbar .x-button.x-button-confirm-small .x-button-icon, .x-toolbar .x-button.x-button-decline-small .x-button-icon, .x-toolbar .x-button.x-button-roundStart-small .x-button-icon {
+.x-button-small .x-button-icon, .x-button.x-button-action-small .x-button-icon, .x-button.x-button-confirm-small .x-button-icon, .x-button.x-button-decline-small .x-button-icon, .x-toolbar .x-button-small .x-button-icon, .x-toolbar .x-button.x-button-action-small .x-button-icon, .x-toolbar .x-button.x-button-confirm-small .x-button-icon, .x-toolbar .x-button.x-button-decline-small .x-button-icon {
   width: .75em;
   height: .75em;
 }
@@ -4266,34 +4266,64 @@ audio {
   }
 }
 
-/* line 55, ../resources/themes/stylesheets/sencha-touch/default/_mixins.scss */
-.x-button.x-button-roundStart, .x-toolbar .x-button.x-button-roundStart, .x-button.x-button-roundStart-round, .x-toolbar .x-button.x-button-roundStart-round, .x-button.x-button-roundStart-small, .x-toolbar .x-button.x-button-roundStart-small {
-  border: 1px solid #006600;
-  border-top-color: green;
+/* line 9, timecop.scss */
+.x-button-round, .x-button.x-button-action-round, .x-button.x-button-confirm-round, .x-button.x-button-decline-round, .x-button-roundStart {
+  background-color: transparent;
+  background-image: none;
+  width: 120px;
+  padding: 10px;
+  height: 120px;
+  overflow: hidden;
+  border: none;
+}
+/* line 19, timecop.scss */
+.x-button-round span, .x-button.x-button-action-round span, .x-button.x-button-confirm-round span, .x-button.x-button-decline-round span, .x-button-roundStart span {
+  color: #333;
+  font-size: 24px;
+  line-height: 68px;
+}
+/* line 24, timecop.scss */
+.x-button-round span.x-button-label, .x-button.x-button-action-round span.x-button-label, .x-button.x-button-confirm-round span.x-button-label, .x-button.x-button-decline-round span.x-button-label, .x-button-round .x-hasbadge span.x-badge, .x-hasbadge .x-button-round span.x-badge, .x-button.x-button-action-round .x-hasbadge span.x-badge, .x-hasbadge .x-button.x-button-action-round span.x-badge, .x-button.x-button-confirm-round .x-hasbadge span.x-badge, .x-hasbadge .x-button.x-button-confirm-round span.x-badge, .x-button.x-button-decline-round .x-hasbadge span.x-badge, .x-hasbadge .x-button.x-button-decline-round span.x-badge, .x-button-roundStart span.x-button-label, .x-button-roundStart .x-hasbadge span.x-badge, .x-hasbadge .x-button-roundStart span.x-badge {
+  display: block;
+  background: #e6e6e6;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e6e6e6 0%, #a8a8a8 50%, #a8a8a8 50%, #e6e6e6 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e6e6e6), color-stop(50%, #a8a8a8), color-stop(50%, #a8a8a8), color-stop(100%, #e6e6e6));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e6e6e6 0%, #a8a8a8 50%, #a8a8a8 50%, #e6e6e6 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e6e6e6 0%, #a8a8a8 50%, #a8a8a8 50%, #e6e6e6 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #e6e6e6 0%, #a8a8a8 50%, #a8a8a8 50%, #e6e6e6 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #e6e6e6 0%, #a8a8a8 50%, #a8a8a8 50%, #e6e6e6 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6e6e6', endColorstr='#e6e6e6',GradientType=0 );
+  /* IE6-9 */
+  position: relative;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  border: 16px solid #e8e8e8;
+  border-radius: 280px;
+  -moz-border-radius: 280px;
+  -webkit-border-radius: 280px;
+  font-weight: 900;
+  -moz-box-shadow: inset 0 0 10px #C7C7C7, 0 0 1px 2px #bababa;
+  -webkit-box-shadow: inset 0 0 10px#C7C7C7, 0 0 1px 2px #bababa;
+  box-shadow: inner 0 0 10px #C7C7C7, 0 0 1px 2px #bababa;
+}
+
+/* line 50, timecop.scss */
+.x-button-roundStart span {
   color: white;
 }
-/* line 60, ../resources/themes/stylesheets/sencha-touch/default/_mixins.scss */
-.x-button.x-button-roundStart.x-button-back:before, .x-button.x-button-roundStart.x-button-forward:before, .x-toolbar .x-button.x-button-roundStart.x-button-back:before, .x-toolbar .x-button.x-button-roundStart.x-button-forward:before, .x-button.x-button-roundStart-round.x-button-back:before, .x-button.x-button-roundStart-round.x-button-forward:before, .x-toolbar .x-button.x-button-roundStart-round.x-button-back:before, .x-toolbar .x-button.x-button-roundStart-round.x-button-forward:before, .x-button.x-button-roundStart-small.x-button-back:before, .x-button.x-button-roundStart-small.x-button-forward:before, .x-toolbar .x-button.x-button-roundStart-small.x-button-back:before, .x-toolbar .x-button.x-button-roundStart-small.x-button-forward:before {
-  background: #006600;
-}
-/* line 64, ../resources/themes/stylesheets/sencha-touch/default/_mixins.scss */
-.x-button.x-button-roundStart, .x-button.x-button-roundStart.x-button-back:after, .x-button.x-button-roundStart.x-button-forward:after, .x-toolbar .x-button.x-button-roundStart, .x-toolbar .x-button.x-button-roundStart.x-button-back:after, .x-toolbar .x-button.x-button-roundStart.x-button-forward:after, .x-button.x-button-roundStart-round, .x-button.x-button-roundStart-round.x-button-back:after, .x-button.x-button-roundStart-round.x-button-forward:after, .x-toolbar .x-button.x-button-roundStart-round, .x-toolbar .x-button.x-button-roundStart-round.x-button-back:after, .x-toolbar .x-button.x-button-roundStart-round.x-button-forward:after, .x-button.x-button-roundStart-small, .x-button.x-button-roundStart-small.x-button-back:after, .x-button.x-button-roundStart-small.x-button-forward:after, .x-toolbar .x-button.x-button-roundStart-small, .x-toolbar .x-button.x-button-roundStart-small.x-button-back:after, .x-toolbar .x-button.x-button-roundStart-small.x-button-forward:after {
-  background-color: #00cc00;
+/* line 53, timecop.scss */
+.x-button-roundStart span.x-button-label, .x-button-roundStart .x-hasbadge span.x-badge, .x-hasbadge .x-button-roundStart span.x-badge {
+  background-color: #0C0;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1aff1a), color-stop(50%, #00e600), color-stop(51%, #00cc00), color-stop(100%, #00b300));
   background-image: -webkit-linear-gradient(#1aff1a, #00e600 50%, #00cc00 51%, #00b300);
   background-image: linear-gradient(#1aff1a, #00e600 50%, #00cc00 51%, #00b300);
-}
-/* line 68, ../resources/themes/stylesheets/sencha-touch/default/_mixins.scss */
-.x-button.x-button-roundStart .x-button-icon.x-icon-mask, .x-toolbar .x-button.x-button-roundStart .x-button-icon.x-icon-mask, .x-button.x-button-roundStart-round .x-button-icon.x-icon-mask, .x-toolbar .x-button.x-button-roundStart-round .x-button-icon.x-icon-mask, .x-button.x-button-roundStart-small .x-button-icon.x-icon-mask, .x-toolbar .x-button.x-button-roundStart-small .x-button-icon.x-icon-mask {
-  background-color: white;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(2%, #ffffff), color-stop(100%, #dbffdb));
-  background-image: -webkit-linear-gradient(#ffffff, #ffffff 2%, #dbffdb);
-  background-image: linear-gradient(#ffffff, #ffffff 2%, #dbffdb);
-}
-/* line 73, ../resources/themes/stylesheets/sencha-touch/default/_mixins.scss */
-.x-button.x-button-roundStart.x-button-pressing, .x-button.x-button-roundStart.x-button-pressing:after, .x-button.x-button-roundStart.x-button-pressed, .x-button.x-button-roundStart.x-button-pressed:after, .x-button.x-button-roundStart.x-button-active, .x-button.x-button-roundStart.x-button-active:after, .x-toolbar .x-button.x-button-roundStart.x-button-pressing, .x-toolbar .x-button.x-button-roundStart.x-button-pressing:after, .x-toolbar .x-button.x-button-roundStart.x-button-pressed, .x-toolbar .x-button.x-button-roundStart.x-button-pressed:after, .x-toolbar .x-button.x-button-roundStart.x-button-active, .x-toolbar .x-button.x-button-roundStart.x-button-active:after, .x-button.x-button-roundStart-round.x-button-pressing, .x-button.x-button-roundStart-round.x-button-pressing:after, .x-button.x-button-roundStart-round.x-button-pressed, .x-button.x-button-roundStart-round.x-button-pressed:after, .x-button.x-button-roundStart-round.x-button-active, .x-button.x-button-roundStart-round.x-button-active:after, .x-toolbar .x-button.x-button-roundStart-round.x-button-pressing, .x-toolbar .x-button.x-button-roundStart-round.x-button-pressing:after, .x-toolbar .x-button.x-button-roundStart-round.x-button-pressed, .x-toolbar .x-button.x-button-roundStart-round.x-button-pressed:after, .x-toolbar .x-button.x-button-roundStart-round.x-button-active, .x-toolbar .x-button.x-button-roundStart-round.x-button-active:after, .x-button.x-button-roundStart-small.x-button-pressing, .x-button.x-button-roundStart-small.x-button-pressing:after, .x-button.x-button-roundStart-small.x-button-pressed, .x-button.x-button-roundStart-small.x-button-pressed:after, .x-button.x-button-roundStart-small.x-button-active, .x-button.x-button-roundStart-small.x-button-active:after, .x-toolbar .x-button.x-button-roundStart-small.x-button-pressing, .x-toolbar .x-button.x-button-roundStart-small.x-button-pressing:after, .x-toolbar .x-button.x-button-roundStart-small.x-button-pressed, .x-toolbar .x-button.x-button-roundStart-small.x-button-pressed:after, .x-toolbar .x-button.x-button-roundStart-small.x-button-active, .x-toolbar .x-button.x-button-roundStart-small.x-button-active:after {
-  background-color: #00bd00;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #008a00), color-stop(10%, #00a300), color-stop(65%, #00bd00), color-stop(100%, #00bf00));
-  background-image: -webkit-linear-gradient(#008a00, #00a300 10%, #00bd00 65%, #00bf00);
-  background-image: linear-gradient(#008a00, #00a300 10%, #00bd00 65%, #00bf00);
 }

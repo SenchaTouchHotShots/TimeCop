@@ -149,7 +149,19 @@ Ext.define('MyApp.view.MyContainer', {
     onStartButtonTap: function(button, e, options) {
         console.log(e);
         var delay = button.getText();
-        setTimeout(function() {Ext.Msg.alert('Holy Crap!', 'Back to work minion! The boss needs a new villa!', Ext.emptyFn);},parseInt(delay, 10)*1000);
+        setTimeout(function() {
+            Ext.device.Notification.vibrate();
+            Ext.device.Notification.show({
+                title: 'Holy Crap!',
+                message: 'Back to work minion! The boss needs a new villa!',
+                buttons: Ext.MessageBox.OKCANCEL,
+                callback: function(button) {
+                    /* Do nothing */
+                }
+            });
+
+
+        },parseInt(delay, 10)*1000);
     }
 
 });
