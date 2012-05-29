@@ -38,7 +38,7 @@ Ext.define('MyApp.view.incrementButton', {
         var total = parseInt(startInt, 10) + parseInt(increment, 10);
 
         start.setText(total);
-
+        console.log('Increment button tapped!');
         if(start.isHidden()) {
             start.show();
         }
