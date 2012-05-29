@@ -155,7 +155,6 @@ Ext.define('MyApp.view.MyContainer', {
             Ext.device.Notification.show({
                 title: 'Holy Crap!',
                 message: 'Back to work minion! The boss needs a new villa!',
-                buttons: Ext.MessageBox.OKCANCEL,
                 callback: function(button) {
                     /* Do nothing */
                 }
