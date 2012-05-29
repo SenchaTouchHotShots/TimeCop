@@ -17,6 +17,8 @@ Ext.Loader.setConfig({
     enabled: true
 });
 
+Ext.require('Ext.device.*');
+
 Ext.application({
     views: [
         'MyContainer',
