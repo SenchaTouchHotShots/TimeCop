@@ -14,7 +14,11 @@
  */
 
 Ext.Loader.setConfig({
-    enabled: true
+    enabled: true,
+    paths: {
+        'Ext': './ext/src',
+        'MyApp': './app'
+    }
 });
 
 
@@ -27,7 +31,7 @@ Ext.application({
     name: 'MyApp',
 
     launch: function() {
-        Ext.require(['Ext.device.Notification', 'Ext.device.Push'], function() {
+        Ext.require(['Ext.device.Notification'], function() {
             console.log('Device Goodies loaded.');
             console.log(arguments);
         });
