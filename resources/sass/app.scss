@@ -1,0 +1,71 @@
+@import 'sencha-touch/default/all';
+
+// You may remove any of the following modules that you
+// do not use in order to create a smaller css file.
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-sheet;
+@include sencha-picker;
+@include sencha-tabs;
+@include sencha-toolbar;
+@include sencha-toolbar-forms;
+@include sencha-indexbar;
+@include sencha-list;
+@include sencha-layout;
+@include sencha-carousel;
+@include sencha-form;
+@include sencha-msgbox;
+
+// Your custom code goes here...
+
+.x-button-round, .x-button-roundStart {
+
+    background-color: transparent;
+  background-image: none;
+    width: 120px;
+  padding: 10px;
+    height: 120px;
+    overflow:hidden;
+  border: none;
+
+  span  {
+    color:#333;
+    font-size:24px;
+    line-height:68px;
+  }
+  span.x-button-label {
+    display: block;
+    background: rgb(230,230,230); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(230,230,230,1) 0%, rgba(168,168,168,1) 50%, rgba(168,168,168,1) 50%, rgba(230,230,230,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(230,230,230,1)), color-stop(50%,rgba(168,168,168,1)), color-stop(50%,rgba(168,168,168,1)), color-stop(100%,rgba(230,230,230,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(230,230,230,1) 0%,rgba(168,168,168,1) 50%,rgba(168,168,168,1) 50%,rgba(230,230,230,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(230,230,230,1) 0%,rgba(168,168,168,1) 50%,rgba(168,168,168,1) 50%,rgba(230,230,230,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(230,230,230,1) 0%,rgba(168,168,168,1) 50%,rgba(168,168,168,1) 50%,rgba(230,230,230,1) 100%); /* IE10+ */
+    background: linear-gradient(top,  rgba(230,230,230,1) 0%,rgba(168,168,168,1) 50%,rgba(168,168,168,1) 50%,rgba(230,230,230,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
+    position:relative;
+    height:100px;
+    width:100px;
+    text-align:center;
+    cursor:pointer;
+    border:16px solid #e8e8e8;
+    border-radius: 280px;
+    -moz-border-radius: 280px;
+    -webkit-border-radius: 280px;
+    font-weight: 900;
+    -moz-box-shadow: inset 0 0 10px #C7C7C7, 0 0 1px 2px #bababa;
+    -webkit-box-shadow: inset 0 0 10px#C7C7C7, 0 0 1px 2px #bababa;
+    box-shadow: inner 0 0 10px #C7C7C7, 0 0 1px 2px #bababa;
+  }
+}
+.x-button-roundStart {
+  span {
+  color: white;
+  }
+  span.x-button-label {
+  background-color: #0C0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1AFF1A), color-stop(50%, #00E600), color-stop(51%, #0C0), color-stop(100%, #00B300));
+  background-image: -webkit-linear-gradient(#1AFF1A, #00E600 50%, #0C0 51%, #00B300);
+  background-image: linear-gradient(#1AFF1A, #00E600 50%, #0C0 51%, #00B300);
+  }
+}
