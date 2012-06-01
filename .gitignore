@@ -1,6 +1,6 @@
 #Local configs
 server/lib/config.inc
-
+server/apns-dev.pem
 
 #################
 ## PHPStorm
