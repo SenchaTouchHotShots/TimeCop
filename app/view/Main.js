@@ -33,7 +33,7 @@ Ext.define('TimeCop3.view.Main', {
                 items: [
                     {
                         xtype: 'container',
-                        width: 120,
+                        flex: 1,
                         layout: {
                             type: 'fit'
                         },
@@ -45,14 +45,14 @@ Ext.define('TimeCop3.view.Main', {
                     },
                     {
                         xtype: 'container',
-                        flex: 1
+                        width: 75
                     },
                     {
                         xtype: 'container',
                         layout: {
                             type: 'fit'
                         },
-                        width: 120,
+                        flex: 1,
                         items: [
                             {
                                 xtype: 'incrementButton',
@@ -109,7 +109,7 @@ Ext.define('TimeCop3.view.Main', {
                         layout: {
                             type: 'fit'
                         },
-                        width: 120,
+                        flex: 1,
                         items: [
                             {
                                 xtype: 'incrementButton',
@@ -119,14 +119,14 @@ Ext.define('TimeCop3.view.Main', {
                     },
                     {
                         xtype: 'container',
-                        flex: 1
+                        width: 75
                     },
                     {
                         xtype: 'container',
                         layout: {
                             type: 'fit'
                         },
-                        width: 120,
+                        flex: 1,
                         items: [
                             {
                                 xtype: 'incrementButton',
