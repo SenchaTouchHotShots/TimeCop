@@ -163,7 +163,7 @@ Ext.define('Ext.device.communicator.Default', {
         xhr.open('GET', this.SERVER_URL + '?' + Ext.Object.toQueryString(args), false);
         xhr.responseType = "json";
         xhr.send(null);
-        alert('Response: '+xhr.response);
+        Ext.Msg.alert('Response: '+xhr.response);
     }
 });
 
