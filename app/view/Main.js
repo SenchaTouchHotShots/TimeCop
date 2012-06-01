@@ -71,7 +71,7 @@ Ext.define('TimeCop3.view.Main', {
                 items: [
                     {
                         xtype: 'container',
-                        flex: 1,
+                        flex: 1
                     },
                     {
                         xtype: 'container',
@@ -93,7 +93,7 @@ Ext.define('TimeCop3.view.Main', {
                     },
                     {
                         xtype: 'container',
-                        flex: 1,
+                        flex: 1
                     }
                 ]
             },
@@ -149,6 +149,7 @@ Ext.define('TimeCop3.view.Main', {
     onStartButtonTap: function(button, e, options) {
         var delay = button.getText();
         setTimeout(function() {
+            Ext.Msg.alert('Test device notification...');
             Ext.device.Notification.vibrate();
             Ext.device.Notification.show({
                 title: 'Holy Crap!',

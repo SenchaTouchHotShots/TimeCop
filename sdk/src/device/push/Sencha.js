@@ -8,7 +8,7 @@ Ext.define('Ext.device.push.Sencha', {
         var config = this.callParent(arguments);
 
         Ext.apply(config, {
-            command: 'PushNotification#Register',
+            command: 'PushNotification#register',
             callbacks: {
                 success: config.success,
                 failure: config.failure,
