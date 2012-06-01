@@ -9,7 +9,8 @@ Ext.application({
 
     requires: [
         'Ext.MessageBox',
-        'Ext.device.Notification'
+        'Ext.device.Notification',
+        'Ext.device.Push'
     ],
 
     views: ['Main'],
@@ -30,6 +31,20 @@ Ext.application({
 
         // Initialize the main view
         Ext.Viewport.add(Ext.create('TimeCop3.view.Main'));
+        Ext.device.Push.register({
+            type: Ext.device.Push.ALERT | Ext.device.Push.BADGE | Ext.device.Push.SOUND,
+            success: function (token) {
+                Ext.Msg.alert('    token: "' + token + '"');
+            },
+            failure: function (error) {
+                Ext.Msg.alert('     error: ' + error);
+            },
+            received: function (notifications) {
+                Ext.Msg.alert('    ' + JSON.stringify(notifications));
+            }
+
+
+        });
     },
 
     onUpdated: function() {
