@@ -149,7 +149,6 @@ Ext.define('TimeCop3.view.Main', {
     onStartButtonTap: function(button, e, options) {
         var delay = button.getText();
         setTimeout(function() {
-            Ext.Msg.alert('Test device notification...');
             Ext.device.Notification.vibrate();
             Ext.device.Notification.show({
                 title: 'Holy Crap!',
