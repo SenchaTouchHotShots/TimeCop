@@ -18,6 +18,8 @@ Ext.define('Ext.device.push.Abstract', {
      */
     SOUND: 4,
 
+    isAbstract: true,
+
     /**
      * @method getInitialConfig
      * @hide

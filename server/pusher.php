@@ -3,7 +3,7 @@
  * pusher.php -- designed to be run as a cron once a minute. Will check for pending notifications and send them.
  */
 
-$now = new DateTime();
+$now = new \DateTime();
 
 /* We have good inputs. Now we need to include some libraries that handle the hard work for us. */
 include_once 'lib/config.inc';

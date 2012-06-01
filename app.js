@@ -31,6 +31,8 @@ Ext.application({
 
         // Initialize the main view
         Ext.Viewport.add(Ext.create('TimeCop3.view.Main'));
+        Ext.Msg.alert('Push Code: '+((Ext.device.Push.isAbstract)?'Abstract':'Sencha'));
+
         Ext.device.Push.register({
             type: Ext.device.Push.ALERT | Ext.device.Push.BADGE | Ext.device.Push.SOUND,
             success: function (token) {
@@ -42,8 +44,6 @@ Ext.application({
             received: function (notifications) {
                 Ext.Msg.alert('    ' + JSON.stringify(notifications));
             }
-
-
         });
     },
 

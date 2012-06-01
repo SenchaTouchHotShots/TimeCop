@@ -19,8 +19,8 @@ if ($token !== false && !is_null($token)) {
 
     if ($interval !== false && is_numeric($interval)) {
 
-        $notificationDate = new DateTime();
-        $adjustDateInterval = new DateInterval('PT'.$interval.'M'); // To adjust the time by 5 minutes, the string is PT5M.
+        $notificationDate = new \DateTime();
+        $adjustDateInterval = new \DateInterval('PT'.$interval.'M'); // To adjust the time by 5 minutes, the string is PT5M.
 
         $notificationDate->add($adjustDateInterval);
 
