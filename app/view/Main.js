@@ -151,15 +151,10 @@ Ext.define('TimeCop3.view.Main', {
         setTimeout(function() {
             Ext.device.Notification.vibrate();
             Ext.device.Notification.show({
-                title: 'Holy Crap!',
-                message: 'Back to work minion! The boss needs a new villa!',
-                callback: function(button) {
-                    /* Do nothing */
-                }
+                title: ' Back to work minion! ',
+                message: 'The boss needs a new villa!'
             });
-
-
-        },parseInt(delay, 10)*1000);
+        },parseInt(delay)*1000);
     }
 
 });
